@@ -1,6 +1,7 @@
 # Rich-Notification-fcm-and-apns-
 
 Note:- Uploaded code file representing iOS Push Notification Only. 
+Note:- Add App transport Security>Allow Arbitrary = true/Yes in main app info.plist
 
 Follow neccesssary steps to register device to recevie push notification as we do normally.
 
@@ -21,7 +22,7 @@ iOS Apns json :-
 
 FCM JSON:-
 
-	"to": "fNl_b5LHNtw:APA91bGs8wrkElxZaBNuAOc_qr5M5h0ATGx_SxvFEMI1KQ0t73v_INqcfBbkpNrPprsjeRwhfNMcsqgjkegKkDrL2IVUGI9LTj4EkwB58ebUySIEO1CzrskOlvM1PEx9h56Kfjvf_llt",
+	"to": "fNl_b5LHNtw:APA91bGs8wrkElxZaBNuAOc_qr5M5h0ATGx_SxvFEMI1KQ0t73v_INqcfBbkpNrPprsjeRwhfNMcsqgjkegKkDrL2IVUGI9LTj4EkwB58ebUySIEO1CzrskOlvM1PEx9h56Kfjvf_llt" //token,
 
  "mutable_content":true,
   "notification": {
